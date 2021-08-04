@@ -1,0 +1,86 @@
+.header-holidays{
+    padding: 14px 0px;
+    background-color: #40B97F;
+
+    &__content{
+        max-width: 1300px;
+        padding: 0 2%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+
+        p{
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 24px;
+            color: #fff;
+        }
+
+        a{
+            color: #fff;
+            text-decoration: none;
+            display: flex;
+            flex-direction: row;
+            gap: 12px;
+            align-items: center;
+
+            picture{
+                width: 24px;
+                height: 24px;
+            }
+        }
+    }
+}
+
+.header{
+    margin: 26px 0px;
+    display: flex;
+    justify-content: space-between;
+
+    &-logo{
+        display: flex;
+        gap: 0px 16px;
+        height: fit-content;
+
+        &__text{
+            max-width: 308px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            p{
+                &:first-child{
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 16px;
+                }
+
+                &:last-child{
+                    font-size: 24px;
+                    font-weight: 600;
+                    line-height: 32px;
+                }
+            }
+        }
+    }
+
+    &-content{
+        display: flex;
+        flex-direction: column;
+        gap: 24px 0;
+        width: 60%;
+
+        &__buttons{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 0px 42.5px;
+        }
+
+        &__links{
+            display: flex;
+            flex-direction: row;
+        }
+    }
+}

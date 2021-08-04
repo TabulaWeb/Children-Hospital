@@ -1,3 +1,4 @@
+// Шрифты
 @mixin font($font_name, $file_name, $weight, $style) {
     @font-face {
     font-family: $font_name;
@@ -10,17 +11,24 @@
 
 @import 'fonts';
 
-body{
-    font-size: 20px;
-    display: flex;
-    @media (max-width: 767px) {
-        font-size: 15px;
-    }
-}
+// Стили для интерфейса
+@import 'interface';
 
+// Header
+@import './header/index.scss';
 
-p{
-    @media (max-width: 767px) {
-        font-size: 15px;
-    }
-}
+// Footer
+@import './footer/index.scss';
+
+// Map
+@import './section-map/index.scss';
+// Memo
+@import './section-memo/index.scss';
+// News
+@import './section-news/index.scss';
+// Record
+@import './section-record/index.scss';
+// Serch
+@import './section-serch/index.scss';
+// Specialist
+@import './section-specialist/index.scss'
