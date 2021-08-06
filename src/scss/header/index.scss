@@ -84,3 +84,33 @@
         }
     }
 }
+
+.header-links {
+    background-color: #1F354F;
+    padding: 20px 0;
+}
+
+.header-links__nav{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding:0 2%;
+}
+
+.header-link {
+    padding: 20px 5px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.header-links__items{
+    display: flex;
+    justify-content: space-between;   
+}
+
+.header-link{
+    text-decoration: none;
+}
+
+.header-links__items li{
+    list-style: none;
+}
