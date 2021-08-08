@@ -1,0 +1,29 @@
+.title-elements{
+    span{
+        display: flex;
+        flex-direction: row;
+        gap: 0 50px;
+        align-items: center;
+
+        div{
+            cursor: pointer;
+
+            &:first-child{
+
+            }
+
+            &:last-child{
+                transform: rotateY(180deg);
+            }
+        }
+    }
+}
+
+.slider{
+    &-item{
+
+        &__img{
+            width: 100%;
+        }
+    }
+}

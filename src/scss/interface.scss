@@ -25,6 +25,11 @@ section{
     margin-bottom: 32px;
     line-height: 48px;
 }
+.title-elements{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 // Button
 .btn {
     padding: 12px 0px;
