@@ -14,5 +14,11 @@
         background-repeat: no-repeat;
         background-position-y: center;
         background-position-x: 98%;
+
+        &::placeholder{
+            color: #60738A;
+            font-size: 16px;
+            font-weight: 400;
+        }
     }
 }

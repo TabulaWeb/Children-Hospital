@@ -1,0 +1,158 @@
+.footer{
+    background-color: #1F354F;
+    padding-top: 48px;
+    padding-bottom: 40px;
+
+
+    &-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 32px;
+
+        &__logo{
+            max-width: 232px;
+
+            p{
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 16px;
+                color: #fff;
+
+                &:nth-of-type(1) {
+                    margin-top: 16px;
+                    margin-bottom: 16px;
+                }
+            }
+        }
+    
+        &__links{
+            nav ul{
+                display: flex;
+                flex-direction: column;
+                gap: 24px 0;
+
+                list-style: none;
+                
+                li a{
+                    color: #fff;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 28px;
+                    text-decoration: none;
+                }
+            }
+        }
+    
+        &__contact{
+            &-title{
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 28px;
+                color: #FFFFFF;
+            }
+            &-links{
+                margin-top: 8px;
+
+                nav ul{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 8px 0;
+    
+                    list-style: none;
+                    
+                    li a{
+                        color: #fff;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 26px;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    
+        &__patients{
+            &-title{
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 28px;
+                color: #FFFFFF;
+            }
+            &-links{
+                margin-top: 8px;
+
+                nav ul{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 8px 0;
+    
+                    list-style: none;
+                    
+                    li a{
+                        color: #fff;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 26px;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    
+        &__about{
+            &-title{
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 28px;
+                color: #FFFFFF;
+            }
+            &-links{
+                margin-top: 8px;
+
+                nav ul{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 8px 0;
+    
+                    list-style: none;
+                    
+                    li a{
+                        color: #fff;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 26px;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+
+    &-extra{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        a{
+            color: #fff;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        p{
+            color: #fff;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            a{
+                color: #72C5C6;
+            }
+        }
+    }
+}
+
+
+
+
