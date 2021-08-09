@@ -86,3 +86,9 @@ section{
     -moz-box-shadow: 0px 0px 0px 2px #40B7B9 inset;
     box-shadow: 0px 0px 0px 2px #40B7B9 inset;
 }
+
+@media(max-width:1250px){
+    .btn{
+        font-size: 14px;
+    }
+}

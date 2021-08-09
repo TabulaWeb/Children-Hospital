@@ -10,7 +10,7 @@
         justify-content: space-between;
 
         p{
-            font-size: 16px;
+            font-size: 14px;
             font-weight: 600;
             line-height: 24px;
             color: #fff;
@@ -141,7 +141,19 @@
 }
 
 @media(max-width:1250px){
+    .header-content__buttons{
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
 
+    .header-logo__text p:last-child{
+        font-size: 20px;
+    }
+
+    .header-content__links p{
+        font-size: 14px;
+    }
 }
 
 @media(max-width:900px){

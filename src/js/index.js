@@ -36,24 +36,24 @@ tns({
 let imgActiveArrow = 'img/svg/slider-arrow-red.svg';
 let imgNoActiveArrow = 'img/svg/slider-arrow.svg';
 
-console.log(button_next.getAttribute('aria-disabled'))
-console.log(button_prev.getAttribute('aria-disabled'))
-
 button_prev.addEventListener('click', function(){
-    console.log(button_prev.getAttribute('aria-disabled'))
     if(button_prev.getAttribute('aria-disabled') == 'true'){
         document.querySelector('#button_prev img').setAttribute('src', imgNoActiveArrow)
         document.querySelector('#button_prev source').setAttribute('srcset', imgNoActiveArrow)
 
         document.querySelector('#button_next img').setAttribute('src', imgActiveArrow)
+    } else if(button_prev.getAttribute('aria-disabled') == 'false' || 'null') {
+        document.querySelector('#button_next img').setAttribute('src', imgActiveArrow)
     }
 })
 
 button_next.addEventListener('click', function(){
-    console.log(button_next.getAttribute('aria-disabled'))
     if(button_next.getAttribute('aria-disabled') == 'true'){
         document.querySelector('#button_next img').setAttribute('src', imgNoActiveArrow)
 
+        document.querySelector('#button_prev img').setAttribute('src', imgActiveArrow)
+        document.querySelector('#button_prev source').setAttribute('srcset', imgActiveArrow)
+    } else if(button_next.getAttribute('aria-disabled') == 'false' || 'null') {
         document.querySelector('#button_prev img').setAttribute('src', imgActiveArrow)
         document.querySelector('#button_prev source').setAttribute('srcset', imgActiveArrow)
     }

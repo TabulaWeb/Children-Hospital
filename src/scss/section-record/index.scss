@@ -40,7 +40,7 @@
 
             .adress-item__title {
                 color: #fff;
-                font-size: 24px;
+                font-size: 22px;
                 font-weight: 600;
                 line-height: 32px;
                 margin-bottom: 16px;
@@ -109,4 +109,35 @@
 li::marker{
     color: #C22137;
     font-size: 26px;
+}
+
+@media(max-width:1250px){
+    .record-content{
+        flex-direction: column;
+    }
+
+    .record-content__doctor{
+        justify-content: space-between;
+        margin-left: 26px;
+    }
+
+    .record-content__doctor-list{
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .record-content__doctor-list ul{
+        gap: 20px 45px;
+        height: 420px;
+        flex-wrap: wrap;
+    }
+
+    .adress-item__title{
+        font-size: 20px;
+    }
+
+    .record-content__adress-item .adress-item__call div{
+        display: flex;
+        flex-direction: column;
+    }
 }
