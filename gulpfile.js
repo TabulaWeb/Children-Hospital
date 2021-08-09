@@ -180,6 +180,10 @@ function fontsStyle() {
             }
         })
     }
+    return new Promise(function(resolve, reject) {
+        console.log("HTTP Server Started");
+        resolve();
+    });
 }
     
 function cb() {}
