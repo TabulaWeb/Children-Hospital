@@ -58,3 +58,13 @@ button_next.addEventListener('click', function(){
         document.querySelector('#button_prev source').setAttribute('srcset', imgActiveArrow)
     }
 })
+
+burger.addEventListener('click', function(){
+    if(burger.classList.contains('open')){
+        burger.classList.remove('open')
+        document.querySelector('.header-links__nav-mobile').classList.remove('active')
+    } else {
+        burger.classList.add('open')
+        document.querySelector('.header-links__nav-mobile').classList.add('active')
+    }
+})
