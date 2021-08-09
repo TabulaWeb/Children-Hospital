@@ -140,6 +140,10 @@
     list-style: none;
 }
 
+.header-holidays__content-mobile{
+    display: none;
+}
+
 @media(max-width:1250px){
     .header-content__buttons{
         gap: 10px;
@@ -157,9 +161,42 @@
 }
 
 @media(max-width:900px){
+    .header-holidays__content{
+        display: none;
+    }
 
+    .header-holidays__content-mobile{
+        display: block;
+        text-align: center;
+        a{
+            color: #fff;
+            font-size: 14px;
+            font-weight: 600;
+        }
+    }
+
+    .header{
+        flex-direction: column;
+    }
+
+    .header-content{
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .header-content__links{
+        justify-content: space-between;
+    }
+
+    .header-content__buttons{
+        justify-content: center;
+    }
+
+    .header-logo{
+        justify-content: center;
+    }
 }
 
-@media(max-width:500px){
+@media(max-width:600px){
 
 }
