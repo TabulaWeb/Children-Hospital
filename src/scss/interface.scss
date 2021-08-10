@@ -92,3 +92,15 @@ section{
         font-size: 14px;
     }
 }
+
+@media(max-width: 768px){
+    .title{
+        font-size: 26px;
+    }
+}
+
+@media(max-width: 600px){
+    .container{
+        padding: 0 4%;
+    }
+}

@@ -99,3 +99,27 @@
         font-size: 18px;
     }
 }
+
+@media(max-width:900px){
+    .specialist-content__items{
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .specialist-content__item{
+        width: calc(48% + 3px)!important;
+    }
+}
+
+@media(max-width:600px){
+    .specialist-content__item{
+        width: 100%!important;
+    }
+    .specialist-content__list ul{
+        flex-direction: column;
+        gap: 0;
+        li{
+            font-size: 14px;
+        }
+    }
+}

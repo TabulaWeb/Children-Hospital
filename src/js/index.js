@@ -30,7 +30,18 @@ tns({
     nested: "outer",
     loop: false,
     prevButton: '.slider-prev',
-    nextButton: '.slider-next'
+    nextButton: '.slider-next',
+    responsive: {
+        300: {
+          items: 1    
+        },
+        600: {
+          items: 2
+        },
+        767: {
+          items: 3
+        }
+      }
 });
 
 let imgActiveArrow = 'img/svg/slider-arrow-red.svg';

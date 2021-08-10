@@ -60,5 +60,16 @@ div.news{
     div.news{
         grid-template-columns: 1fr 1fr 1fr;
     }
+}
 
+@media(max-width:785px){
+    div.news{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(max-width:500px){
+    div.news{
+        grid-template-columns: 1fr;
+    }
 }

@@ -141,3 +141,29 @@ li::marker{
         flex-direction: column;
     }
 }
+
+@media(max-width:900px){
+
+}
+
+@media(max-width:600px){
+    .record-content__doctor-list ul{
+        height: inherit;
+        gap: 0px;
+    }
+    .record-content__adress{
+        display: none;
+    }
+    .record-content__doctor-list ul li{
+        font-size: 14px;
+    }
+}
+
+@media(max-width:500px){
+}
+
+@media(max-width: 475px){
+    .record-content__doctor{
+        flex-direction: column;
+    }
+}
